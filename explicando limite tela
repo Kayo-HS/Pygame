@@ -23,26 +23,26 @@
 
 
 
-'''1. Definindo os Limites:
+# '''1. Definindo os Limites:
 
-largura e altura: Essas variáveis definem as dimensões da tela do jogo.
-x e y: Essas variáveis representam a posição do centro do círculo vermelho.
-2. Verificando a Posição do Círculo:
+# largura e altura: Essas variáveis definem as dimensões da tela do jogo.
+# x e y: Essas variáveis representam a posição do centro do círculo vermelho.
+# 2. Verificando a Posição do Círculo:
 
-if x < 0:: Se a posição x do círculo for menor que 0, significa que ele está saindo da tela pela esquerda.
-if x > largura - 40:: Se a posição x do círculo for maior que largura - 40, significa que ele está saindo da tela pela direita.
-if y < 0:: Se a posição y do círculo for menor que 0, significa que ele está saindo da tela pela cima.
-if y > altura - 50:: Se a posição y do círculo for maior que altura - 50, significa que ele está saindo da tela pela baixo.
+# if x < 0:: Se a posição x do círculo for menor que 0, significa que ele está saindo da tela pela esquerda.
+# if x > largura - 40:: Se a posição x do círculo for maior que largura - 40, significa que ele está saindo da tela pela direita.
+# if y < 0:: Se a posição y do círculo for menor que 0, significa que ele está saindo da tela pela cima.
+# if y > altura - 50:: Se a posição y do círculo for maior que altura - 50, significa que ele está saindo da tela pela baixo.
 
-3. Ajustando a Posição do Círculo:
+# 3. Ajustando a Posição do Círculo:
 
-x = 0: Se o círculo estiver saindo pela esquerda, sua posição x é definida como 0, fazendo com que ele fique alinhado com a borda esquerda da tela.
-x = largura - 40: Se o círculo estiver saindo pela direita, sua posição x é definida como largura - 40, fazendo com que ele fique alinhado com a borda direita da tela.
-y = 0: Se o círculo estiver saindo pela cima, sua posição y é definida como 0, fazendo com que ele fique alinhado com a borda superior da tela.
-y = altura - 50: Se o círculo estiver saindo pela baixo, sua posição y é definida como altura - 50, fazendo com que ele fique alinhado com a borda inferior da tela.
-4. Mantendo o Círculo dentro dos Limites:
+# x = 0: Se o círculo estiver saindo pela esquerda, sua posição x é definida como 0, fazendo com que ele fique alinhado com a borda esquerda da tela.
+# x = largura - 40: Se o círculo estiver saindo pela direita, sua posição x é definida como largura - 40, fazendo com que ele fique alinhado com a borda direita da tela.
+# y = 0: Se o círculo estiver saindo pela cima, sua posição y é definida como 0, fazendo com que ele fique alinhado com a borda superior da tela.
+# y = altura - 50: Se o círculo estiver saindo pela baixo, sua posição y é definida como altura - 50, fazendo com que ele fique alinhado com a borda inferior da tela.
+# 4. Mantendo o Círculo dentro dos Limites:
 
-Ao ajustar a posição do círculo quando ele está saindo da tela, o código garante que ele permaneça dentro dos limites da tela.
-Em resumo:
+# Ao ajustar a posição do círculo quando ele está saindo da tela, o código garante que ele permaneça dentro dos limites da tela.
+# Em resumo:
 
-O código funciona verificando a posição do círculo em relação às bordas da tela. Se o círculo estiver saindo da tela, sua posição é ajustada para que ele fique dentro dos limites. Isso cria a sensação de que o círculo está "batendo" nas bordas da tela e não pode sair.''''
+# O código funciona verificando a posição do círculo em relação às bordas da tela. Se o círculo estiver saindo da tela, sua posição é ajustada para que ele fique dentro dos limites. Isso cria a sensação de que o círculo está "batendo" nas bordas da tela e não pode sair.''''
