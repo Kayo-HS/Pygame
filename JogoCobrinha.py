@@ -79,6 +79,7 @@ while True:
         listaCabeça.append(xCobra)
         listaCabeça.append(yCobra) 
         listaCobra.append(listaCabeça)
+        
     
     aumentaCobra(listaCobra)
 
